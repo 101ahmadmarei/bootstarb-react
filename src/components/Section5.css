@@ -1,0 +1,83 @@
+footer {
+  background-color: #8dd3bb;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  margin-top: 200px;
+  height: 300px;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+.allItems {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+footer h4 {
+  font-family: "TradeGothic LT Extended";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  /* Blackish Green */
+
+  color: #112211;
+}
+footer ul li {
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.7;
+}
+
+.section6 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(205, 234, 225, 1);
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  top: -40%;
+  left: 10%;
+  border-radius: 15px;
+  padding: 20px 20px 0;
+}
+
+.btn-dark {
+  background-color: rgba(17, 34, 17, 1);
+  margin-left: 10px;
+}
+@media only screen and (max-width: 1000px) {
+  .s11 {
+    display: none !important;
+  }
+
+  .allItems {
+    position: relative;
+  }
+  footer {
+    margin-top: 10px;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .section5 {
+    height: inherit;
+  }
+}

@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+@font-face {
+  font-family: "TradeGothic LT Extended";
+  src: url("/public/Fonts/Trade\ Gothic\ LT\ Std\ Extended.otf") format("woff2"),
+    url("/public/Fonts/Trade\ Gothic\ LT\ Std\ Extended.otf") format("woff"),
+    url("/public/Fonts/Trade\ Gothic\ LT\ Std\ Extended.otf") format("truetype");
+}
+.btn-green {
+  background-color: #8dd3bb;
+  border-color: #8dd3bb;
+}
+
+.btn-green:hover {
+  background-color: #016c47;
+  border-color: #016c47;
+}

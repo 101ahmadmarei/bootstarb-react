@@ -1,0 +1,81 @@
+.section4 .card {
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 26px 24px 0px -3px rgba(141, 211, 187, 0.4),
+    0px -4px 18px -3px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  margin: 0 15px 40px;
+}
+.section4 .rating {
+  display: inline-block;
+  /* position: relative; */
+  /* left: -15px; */
+}
+
+/* .section4 .rating .fa {
+    font-size: 24px;
+    color: #ffc107;
+  }
+  
+  .section4 .checked {
+    color: orange;
+  } */
+*/ .card .card h5 {
+  font-family: TradeGothic LT Extended;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.5;
+}
+.custom-color {
+  color: orange;
+  margin-right: 8px;
+}
+
+.section4 img {
+  /* padding-bottom: 20px; */
+}
+.userName h4 {
+  font-family: TradeGothic LT Extended;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.userName p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 0.5;
+  margin-bottom: 8px;
+}
+.userName div {
+  margin-bottom: 20px;
+}
+.userName div span {
+  font-family: TradeGothic LT Extended;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 5px;
+  opacity: 0.4;
+}
+.userName div i {
+  margin-right: 5px;
+}
